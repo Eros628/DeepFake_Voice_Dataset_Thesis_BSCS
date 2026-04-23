@@ -2,7 +2,7 @@
 
 
 **About This Dataset:**
-This dataset was specifically compiled and utilized for our academic thesis, *LIGHTWEIGHT DEEPFAKE AUDIO DETECTION VIA RESNEXT TO MOBILENETV3 KNOWLEDGE DISTILLATION"* It contains the raw audio files necessary for extracting acoustic features and training our deepfake voice detection models.
+This dataset was specifically compiled and utilized for our academic thesis, *"ligthweight DeepFake Audio Detection Via ResNeXt to MobileNetV3 Knowledge Distillation "*## 
 
 Due to GitHub's strict file size limits, the raw audio dataset used for training our models is securely hosted on Kaggle. We have provided an automated script to fetch and extract the heavy audio files directly to your local workspace.
 
@@ -48,7 +48,17 @@ https://www.kaggle.com/datasets/yongski/deepfake-voice-detection-thesis
 
 5. Move all the extracted audio files into this ./dataset/ folder.
 
-Once the files are in the dataset folder, you can proceed with running the feature extraction and model training scripts as normal!
+ Once you download and extract the dataset, you will see the following folder structure containing the raw audio data (`.wav` files) used for training and evaluation:
+
+* **`combined_dataset/`** Contains the core training dataset, which is a merged collection of the ASVspoof 2019 and Fake-Or-Real (FoR) datasets.
+* **`wav_files/`**
+  Contains the raw audio file directory.
+* **`asvspoof2021-eval/`**
+  Contains the unseen evaluation dataset from ASVspoof 2021 used to test the model's performance.
+* **`release_in_the_wild/`**
+  Contains the "In the Wild" evaluation dataset to test generalization against real-world deepfake audio.
+* **`asvspoof5-eval/`**
+  Contains the evaluation dataset for ASVspoof 5 to further test model robustness and generalization.
 
 ## Authored By:
 EROS PILOTON LUCAGBO
