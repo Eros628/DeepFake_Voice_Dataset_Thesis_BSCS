@@ -2,7 +2,7 @@
 
 
 **About This Dataset:**
-This dataset was specifically compiled and utilized for our academic thesis, *"ligthweight DeepFake Audio Detection Via ResNeXt to MobileNetV3 Knowledge Distillation "*## 
+This dataset was specifically compiled and utilized for our academic thesis, *"ligthweight DeepFake Audio Detection Via ResNeXt to MobileNetV3 Knowledge Distillation "*
 
 Due to GitHub's strict file size limits, the raw audio dataset used for training our models is securely hosted on Kaggle. We have provided an automated script to fetch and extract the heavy audio files directly to your local workspace.
 
