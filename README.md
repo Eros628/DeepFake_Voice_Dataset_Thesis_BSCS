@@ -61,8 +61,8 @@ https://www.kaggle.com/datasets/yongski/deepfake-voice-detection-thesis
   Contains the evaluation dataset for ASVspoof 5 to further test model robustness and generalization.
 
 ## Authored By:
-EROS PILOTON LUCAGBO
-CHERRY LEE HONRADA JIMENEZ
-ELLA NORIENNE CADELINÑA DACAPIO 
-JOSS EVMAR GALEDO OPEÑA
-MARYLENE S. EDER, MIT [Adviser]
+* EROS PILOTON LUCAGBO
+* CHERRY LEE HONRADA JIMENEZ
+* ELLA NORIENNE CADELINÑA DACAPIO 
+* JOSS EVMAR GALEDO OPEÑA
+* MARYLENE S. EDER, MIT [Adviser]
