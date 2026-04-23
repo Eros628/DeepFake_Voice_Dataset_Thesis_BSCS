@@ -22,3 +22,26 @@ Open the `.env` file and paste your copied token using this exact format:
 
 ```env
 KAGGLE_API_TOKEN=KGAT_your_long_token_string_here
+```
+### Step 3: Run the Script
+Open your terminal, navigate to this project folder, and run:
+
+```env
+python download_dataset.py
+```
+The script will automatically read your .env file, authenticate with Kaggle, and extract the dataset into a local ./dataset/ folder for immediate use.
+
+## Troubleshooting & Manual Download
+If you encounter any network errors, API authentication issues, or if the script fails to download the heavy audio files, you can easily bypass the script and download the dataset manually:
+1. Go directly to our dataset page on Kaggle:
+https://www.kaggle.com/datasets/yongski/deepfake-voice-detection-thesis
+
+2. Click the Download button in the top right corner.
+
+3. Once the .zip file is downloaded to your computer, extract its contents.
+
+4. Create a folder named dataset in the root directory of this repository.
+
+5. Move all the extracted audio files into this ./dataset/ folder.
+
+Once the files are in the dataset folder, you can proceed with running the feature extraction and model training scripts as normal!
