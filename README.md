@@ -2,7 +2,7 @@
 
 
 **About This Dataset:**
-This dataset was specifically compiled and utilized for our academic thesis, *"A Lightweight Deepfake Voice Detection Approach Using Acoustic and Phonetic Features."* It contains the raw audio files necessary for extracting acoustic features and training our deepfake voice detection models.
+This dataset was specifically compiled and utilized for our academic thesis, *LIGHTWEIGHT DEEPFAKE AUDIO DETECTION VIA RESNEXT TO MOBILENETV3 KNOWLEDGE DISTILLATION"* It contains the raw audio files necessary for extracting acoustic features and training our deepfake voice detection models.
 
 Due to GitHub's strict file size limits, the raw audio dataset used for training our models is securely hosted on Kaggle. We have provided an automated script to fetch and extract the heavy audio files directly to your local workspace.
 
